@@ -15,15 +15,16 @@ const router = createBrowserRouter([
   {path: "/Notes", element: <Notes/>},
   {path: "/Folders", element: <Folders/>},
   /*{path:"/Timer", element: <Timer/>}*/
-])
+], {
+  basename: '/coral-arteaga-pr'
+})
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AuthContextProvider>
-      <RouterProvider router = {router}/>
+      <RouterProvider router={router} />
     </AuthContextProvider>
   </StrictMode>,
-  
 )
 
 
