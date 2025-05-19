@@ -87,7 +87,7 @@ export default function Notes() {
     });
 
     setActiveId(null);
-    window.location.reload();
+    
   }
 
   

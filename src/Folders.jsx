@@ -23,7 +23,7 @@ const loadFolders = () => {
 
 const saveFolders = (folders) => {
   localStorage.setItem(storageKey, JSON.stringify(folders));
-  window.location.reload();
+ 
 };
 
 //NOTE GRID COMPONENT
